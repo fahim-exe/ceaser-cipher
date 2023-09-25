@@ -21,6 +21,9 @@ while True:
         if close_input.lower() == "no":
             break
 
+        else:
+            continue
+
     if choice.lower() == "decode":
         message = input("Enter your message: ")
         shifter = int(input("Enter shifter amount: "))
@@ -31,12 +34,19 @@ while True:
         if close_input.lower() == "no":
             break
 
+        else:
+            continue
+
     else:
         q = input("Please enter a valid input or enter 'q' to exit the program!!!!")
         print()
 
         if q.lower()=="q":
             break
+        
+        else:
+            continue
+
             
 
         
